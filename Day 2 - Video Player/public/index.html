@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Sharing App</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Video Sharing App</h1>
+    <div id="video-upload">
+      <label for="video-file">Choose a video:</label>
+      <input type="file" accept="video/*" id="video-file" />
+    </div>
+    <label for="video-title">Video Title:</label>
+    <input type="text" id="video-title" />
+    <div id="video-container"></div>
+    <div class="btns">
+        <button onclick="uploadVideo()">Upload Video</button>
+        <button onclick="deleteVideo()">Delete Video</button>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
